@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+}
+.page{
+    width: 100vw;
+    display: flex;
+}
+.header{
+    height: 10vh;
+    background-color: aqua;
+}
+.second{
+    height: 20vh;
+    background-color: aqua;
+    margin-bottom: 50px;
+}
+.third{
+    height:80vh ;
+    margin-bottom: 650px;
+    justify-content: space-between;
+
+    
+    .thirdLeft{
+        height: 250%;
+        width: 20%;
+        background-color: aqua;
+    }
+    .thirdRight{
+        height: 100%;
+        width: 70%;
+        .rightText{
+            
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            p{
+                width: 80%;
+            }
+        }
+        
+        .rightNineAreas{
+            height: 120%;
+            width: 120%;
+            display: flex;
+            flex-wrap: wrap;
+            .nums{
+                height: 50%;
+            width: 30%;
+            .numsColor{
+                height: 80%;
+            width: 80%;
+            background-color: aqua;
+            }
+            }
+        }
+    }
+}
+.footer
+{
+    height:10vh ;
+    background-color: aqua;
+}

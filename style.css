@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+}
+
+.page {
+  width: 100vw;
+  display: flex;
+}
+
+.header {
+  height: 10vh;
+  background-color: aqua;
+}
+
+.second {
+  height: 20vh;
+  background-color: aqua;
+  margin-bottom: 50px;
+}
+
+.third {
+  height: 80vh;
+  margin-bottom: 650px;
+  justify-content: space-between;
+}
+.third .thirdLeft {
+  height: 250%;
+  width: 20%;
+  background-color: aqua;
+}
+.third .thirdRight {
+  height: 100%;
+  width: 70%;
+}
+.third .thirdRight .rightText {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.third .thirdRight .rightText p {
+  width: 80%;
+}
+.third .thirdRight .rightNineAreas {
+  height: 120%;
+  width: 120%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.third .thirdRight .rightNineAreas .nums {
+  height: 50%;
+  width: 30%;
+}
+.third .thirdRight .rightNineAreas .nums .numsColor {
+  height: 80%;
+  width: 80%;
+  background-color: aqua;
+}
+
+.footer {
+  height: 10vh;
+  background-color: aqua;
+}/*# sourceMappingURL=style.css.map */
